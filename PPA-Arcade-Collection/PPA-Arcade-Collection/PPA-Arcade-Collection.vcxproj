@@ -134,7 +134,13 @@
     <ClCompile Include="..\Include\imgui\imgui.cpp" />
     <ClCompile Include="..\Include\imgui\imgui_draw.cpp" />
     <ClCompile Include="..\Include\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="CTest.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CTest.h" />
+    <ClInclude Include="Game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
