@@ -137,10 +137,12 @@
     <ClCompile Include="CTest.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PacMan.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CTest.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="PacMan.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
