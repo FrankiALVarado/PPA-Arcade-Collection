@@ -134,11 +134,15 @@
     <ClCompile Include="..\Include\imgui\imgui.cpp" />
     <ClCompile Include="..\Include\imgui\imgui_draw.cpp" />
     <ClCompile Include="..\Include\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="CBreakOut.cpp" />
+    <ClCompile Include="CPlayer.cpp" />
     <ClCompile Include="CTest.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CBreakOut.h" />
+    <ClInclude Include="CPlayer.h" />
     <ClInclude Include="CTest.h" />
     <ClInclude Include="Game.h" />
   </ItemGroup>
